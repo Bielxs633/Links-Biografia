@@ -1,0 +1,82 @@
+* {
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 80px;
+}
+
+div {
+  margin: 3px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+#perfil {
+  margin:  0 auto 3rem auto;
+}
+
+#perfil-image {
+  width: 13rem;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+#perfil-image:hover {
+  transform: scale(1.1);
+}
+
+#name {
+  margin: 0;
+  font-size: 2rem;
+  transition: 0.2s;
+  color: white;
+}
+
+#name:hover {
+  opacity: 0.8;
+}
+
+span {
+  opacity: 0.5;
+  color: white;
+  transition: 0.2s;
+}
+
+span:hover {
+  opacity: 0.8;
+}
+
+#grid-container {
+  display: grid;
+  grid-gap: 60px 20px;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: repeat(3, 6rem);
+  justify-content: center;
+}
+
+.grid-item {
+  border-radius: 30px;
+  background-color: rgb(72, 72, 72);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.grid-item:hover {
+  background-color: gray;
+  transform: scale(1.1);
+}
+
+i {
+  font-size: 4rem;
+  margin: 15px;
+  color: white;
+  transform: 0.5s;
+}
