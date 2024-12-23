@@ -29,7 +29,8 @@ Site com o intuito de divulgar minhas mídias sociais
 ---
 
 ## Tecnologias utilizadas
-- **HTML** - Estrutura da página e do canvas.
-- **CSS** - Estilo visual do jogo e layout responsivo.
-
-
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Markdown**
+- **Git**
